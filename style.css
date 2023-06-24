@@ -1,0 +1,110 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: rgb(87, 61, 61);
+  padding: 16px 4px;
+  filter: drop-shadow(0 0 25px rgba(0, 0, 0, 0.5));
+}
+
+header h3 {
+  color: aliceblue;
+  margin-left: 40px;
+}
+
+.ulHeader {
+  display: flex;
+  margin-right: 40px;
+}
+
+li {
+  list-style: none;
+  margin-left: 10px;
+}
+
+.ahead {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: bold;
+}
+
+.mainINDEX {
+  display: flex;
+  margin-top: 50px;
+  max-width: 1400px;
+  align-items: center;
+  margin: 40px auto;
+}
+
+.half {
+  width: 50%;
+  overflow: hidden;
+  padding: 100px;
+}
+
+.imgProfile {
+  width: 100%;
+  border-radius: 100%;
+  filter: drop-shadow(0 0 10px rgba(156, 87, 87, 0.5));
+}
+
+.titleEXPERIENCE {
+  text-align: center;
+}
+
+.mainEXPE {
+  display: flex;
+  padding: 0 80px;
+  margin-top: 20px;
+}
+
+.infoINDEX {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.infoEXPE {
+  /* border: solid red; */
+  margin: 10px 20px 20px 100px;
+  width: 40%;
+}
+
+.infoEXPE {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.ulCON {
+  /* width: 140px; */
+  height: 30px;
+  border-radius: 5px;
+}
+
+.ulCONSONG {
+  height: 60px;
+  margin-right: 20px;
+}
+
+main h3 {
+  margin-left: 4px;
+}
+
+.Song {
+  display: flex;
+  margin-left: 10px;
+}
+
+.inin {
+  text-align: center
+}
+
+.det {
+  text-decoration: none;
+  color: brown;
+}
