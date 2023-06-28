@@ -16,6 +16,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -82,8 +85,9 @@
       <div>
         <h1 class="text-center pb-4" style="color:#ED9510;">Experince</h1>
       </div>
-      <div class="d-flex flex-wrap gap-5 justify-content-center" style="">
-        <div class="card p-0 overflow-hidden shadowbg" style="max-width: 30rem; width: 86%;">
+      <div class="d-flex flex-wrap gap-5 justify-content-center">
+        <!-- Card -->
+        <div class="card p-0 overflow-hidden shadowbg" style="max-width: 30rem; width: 86%;" data-aos="fade-up">
           <div class="row ">
             <div class="col-md-0 ratio ratio-1x1 ">
               <img src="img/img2.jpg" class="img-fluid rounded-2 object-fit-cover"alt="...">
@@ -96,7 +100,8 @@
             </div>
           </div>
         </div>
-        <div class="card p-0 overflow-hidden shadowbg" style="max-width: 30rem; width: 86%;">
+        <!-- Card -->
+        <div class="card p-0 overflow-hidden shadowbg" style="max-width: 30rem; width: 86%;" data-aos="fade-up">
           <div class="row">
             <div class="col-md-8 ratio ratio-1x1">
               <img src="img/img3.png" class="img-fluid rounded-2 object-fit-cover" alt="...">
@@ -112,5 +117,10 @@
         
        
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({duration:500});
+    </script>
   </body>
 </html>

@@ -16,6 +16,9 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
   <body>
@@ -79,18 +82,18 @@
 
     <main class="pb-5">
       <div class="d-flex justify-content-center align-items-center my-0 mx-auto gap-5 me-5 ms-5 com pb-5" style="padding-top: 6rem;">
-        <div class="d-none d-md-block preimgCom">
+        <div class="d-none d-md-block preimgCom" data-aos="fade-down">
           <img src="img/photo.jpg" alt="" class="imgCom" />
         </div>
         <div class="align-self-center d-none d-md-block" style="width: 24rem">
-          <div class="">
+          <div class="" data-aos="fade-left">
             <h4 class="fw-bold" style="color:#ED9510;">Autsada Wiriya</h4>
             <p class="text-white">
               Hi My name is Aut. I study in Chiang Mai University. Nice to meet you!
             </p>
             <br />
           </div>
-          <div class=" p-2 my-3">
+          <div class=" p-2 my-3" data-aos="fade-up">
             <h5 style="color:#ED9510" >Skills</h5>
             <h6 class="mx-2 text-white" >Programming</h6>
             <div class="d-flex gap-1 my-1 flex-wrap justify-content-center">
@@ -149,19 +152,19 @@
 
       <div class="mobile">
         <div class="d-flex justify-content-center d-md-none preimgMo">
-          <img src="img/photo.jpg" alt="" class=" imgMo" />
+          <img src="img/photo.jpg" alt="" class=" imgMo" data-aos="fade-down"/>
         </div>
         <div class="d-md-none">
-          <div>
+          <div data-aos="fade-left">
             <h4 class="d-flex justify-content-center my-3" style="color:#ED9510;">Autsada Wiriya</h4>
             <p class="mx-auto MYinfo p-3 text-white">
               Hi My name is Aut. I study in Chiang Mai University. Nice to meet you!
             </p>
           </div>
-          <div class="mx-auto p-2 boxskills my-2">
-            <h4 class="p-0 fw-bold" style="color:#ED9510; background-color: rgb(241, 241, 241);">Skills</h4>
+          <div class="mx-auto p-2 boxskills my-2" data-aos="fade-right">
+            <h4 class="p-0 fw-bold" style="color:#ED9510; background-color: rgb(241, 241, 241);" >Skills</h4>
             <h6 class="mx-2" style="background-color: rgb(241, 241, 241);">Programming</h6>
-            <div class="d-flex flex-wrap gap-1 my-1 justify-content-center" style="background-color: rgb(241, 241, 241);">
+            <div class="d-flex flex-wrap gap-1 my-1 justify-content-center"  style="background-color: rgb(241, 241, 241);">
               <img
                 class="imgicon"
                 src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white"
@@ -218,5 +221,10 @@
         </div>
       </div>
     </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({duration:500});
+    </script>
   </body>
 </html>
