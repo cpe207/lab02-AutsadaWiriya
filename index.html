@@ -1,54 +1,220 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light p-3 mt-0" >
+      <div class="container-fluid mx-4" >
+        <h1 class="navbar-brand fw-bold text-white me-0" >Autsada<h1 class="navbar-brand fw-bold text-white ms-0 d-none d-md-block">Wiriya</h1></h1>
+        <button
+          class="navbar-toggler border"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="padding-top: 2px;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 6l16 0"></path>
+              <path d="M4 12l16 0"></path>
+              <path d="M4 18l16 0"></path>
+           </svg>
+          </span>
+        </button>
 
-<body>
-  <header>
-    <h3>Autsada Wiriya</h3>
-    <ul class="ulHeader">
-      <li><a href="index.html" class="ahead">Home</a></li>
-      <li><a href="experience.html" class="ahead">Experience</a></li>
-      <li><a href="contect.html" class="ahead">Contect</a></li>
-    </ul>
-  </header>
-  <br>
-
-  <main class="mainINDEX">
-    <div class="half">
-      <img src="img/photo.jpg" alt="" class="imgProfile">
-      <h2 class="inin"><br>My name is Aut. Nice to meet you!</h2>
-    </div>
-    <div class="half">
-      <h1 class="titleINDEX">My Portfolio</h1>
-      <div class="infoINDEX">
-        <h2>Skills</h2>
-        <br>
-        <h3>Programming</h3>
-        <ul>
-          <li><img class="ulCON" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt=""></li>
-          <li><img class="ulCON" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt=""></li>
-          <li><img class="ulCON" src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" alt=""></li>
-          <li><img class="ulCON" src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" alt=""></li>
-          <li><img class="ulCON" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt=""></li>
-        </ul>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02" >
+          <ul class="navbar-nav ms-auto" >
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="experience.html" 
+                >Experince</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="gallery.html" >Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold"
+                href="contect.html"
+                tabindex="-1"
+                aria-disabled="true"
+                style="background: #04051C;"
+                >Contect</a
+              >
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="infoINDEX">
-        <h3>Music</h3>
-        <ul class="Song">
-          <img class="ulCONSONG" src="https://em-content.zobj.net/thumbs/240/emojidex/112/trumpet_1f3ba.png" alt=""></li>
-          <img class="ulCONSONG" src="https://em-content.zobj.net/thumbs/240/whatsapp/352/guitar_1f3b8.png" alt=""></li>
-          <img class="ulCONSONG" src="https://em-content.zobj.net/thumbs/240/facebook/355/musical-keyboard_1f3b9.png" alt=""></li>
-        </ul>
+    </nav>
+
+    <main>
+      <div class="d-flex justify-content-center align-items-center my-0 mx-auto gap-5 me-5 ms-5 com" style="padding-top: 6rem;">
+        <div class="d-none d-md-block preimgCom">
+          <img src="img/photo.jpg" alt="" class="imgCom" />
+        </div>
+        <div class="align-self-center d-none d-md-block" style="width: 24rem">
+          <div class="">
+            <h4 class="fw-bold" style="color:#ED9510;">Autsada Wiriya</h4>
+            <p class="text-white">
+              Hi My name is Aut. I study in Chiang Mai University. Nice to meet you!
+            </p>
+            <br />
+          </div>
+          <div class=" p-2 my-3">
+            <h5 style="color:#ED9510" >Skills</h5>
+            <h6 class="mx-2 text-white" >Programming</h6>
+            <div class="d-flex gap-1 my-1 flex-wrap justify-content-center">
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+                alt=""
+              />
+            </div>
+            <h6 class="mx-2 mt-3 text-white">Music</h6>
+            <div class="d-flex gap-3 my-1 mx-4">
+              <img
+                class="imgmusic"
+                src="https://em-content.zobj.net/thumbs/240/emojidex/112/trumpet_1f3ba.png"
+                alt=""
+              />
+              <img
+                class="imgmusic"
+                src="https://em-content.zobj.net/thumbs/240/whatsapp/352/guitar_1f3b8.png"
+                alt=""
+              />
+              <img
+                class="imgmusic"
+                src="https://em-content.zobj.net/thumbs/240/facebook/355/musical-keyboard_1f3b9.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </main>
 
-</body>
-
+      <div class="mobile">
+        <div class="d-flex justify-content-center d-md-none preimgMo">
+          <img src="img/photo.jpg" alt="" class=" imgMo" />
+        </div>
+        <div class="d-md-none">
+          <div>
+            <h4 class="d-flex justify-content-center my-3" style="color:#ED9510;">Autsada Wiriya</h4>
+            <p class="mx-auto MYinfo p-3 text-white">
+              Hi My name is Aut. I study in Chiang Mai University. Nice to meet you!
+            </p>
+          </div>
+          <div class="mx-auto p-2 boxskills my-2">
+            <h4 class="p-0 fw-bold" style="color:#ED9510; background-color: rgb(241, 241, 241);">Skills</h4>
+            <h6 class="mx-2" style="background-color: rgb(241, 241, 241);">Programming</h6>
+            <div class="d-flex flex-wrap gap-1 my-1 justify-content-center" style="background-color: rgb(241, 241, 241);">
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"
+                alt=""
+              />
+              <img
+                class="imgicon"
+                src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+                alt=""
+              />
+            </div>
+            <h6 class="mx-2" style="background-color: rgb(241, 241, 241);">Music</h6>
+            <div class="d-flex flex-wrap gap-3 my-0 mx-4" style="background-color: rgb(241, 241, 241);">
+              <img
+                class="imgmusic"
+                src="https://em-content.zobj.net/thumbs/240/emojidex/112/trumpet_1f3ba.png"
+                style="background-color: rgb(241, 241, 241);"
+                alt=""
+              />
+              <img
+                class="imgmusic "
+                src="https://em-content.zobj.net/thumbs/240/whatsapp/352/guitar_1f3b8.png"
+                style="background-color: rgb(241, 241, 241);"
+                alt=""
+              />
+              <img
+                class="imgmusic"
+                src="https://em-content.zobj.net/thumbs/240/facebook/355/musical-keyboard_1f3b9.png"
+                style="background-color: rgb(241, 241, 241);"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <br /><br />
+    </main>
+  </body>
 </html>

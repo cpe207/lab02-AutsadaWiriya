@@ -1,38 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
-  <link rel="stylesheet" href="style.css">
-</head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light p-3 mt-0" >
+      <div class="container-fluid mx-4" >
+        <h1 class="navbar-brand fw-bold text-white me-0" >Autsada<h1 class="navbar-brand fw-bold text-white ms-0 d-none d-md-block">Wiriya</h1></h1>
+        <button
+          class="navbar-toggler border"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="padding-top: 2px;">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-menu-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="white" fill="none" stroke-linecap="round" stroke-linejoin="round">
+              <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+              <path d="M4 6l16 0"></path>
+              <path d="M4 12l16 0"></path>
+              <path d="M4 18l16 0"></path>
+           </svg>
+          </span>
+        </button>
 
-<body>
-  <header>
-    <h3>Autsada</h3>
-    <ul class="ulHeader">
-      <li><a href="index.html" class="ahead">Home</a></li>
-      <li><a href="experience.html" class="ahead">Experience</a></li>
-      <li><a href="contect.html" class="ahead">Contect</a></li>
-    </ul>
-  </header>
-  <br>
+        <div class="collapse navbar-collapse " id="navbarTogglerDemo02" >
+          <ul class="navbar-nav ms-auto" >
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold"
+                aria-current="page"
+                href="index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="experience.html" 
+                >Experince</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="gallery.html" >Gallery</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link text-white fw-bold"
+                href="contect.html"
+                tabindex="-1"
+                aria-disabled="true"
+                style="background: #04051C;"
+                >Contect</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-  <h1 class="titleEXPERIENCE">Experience</h1>
-  <main class="mainEXPE">
-    <div class="infoEXPE">
-      <h2>Pandemic</h2>
-      <img src="img/img3.jpg" alt="" >
-      <p>Pandemic เป็นเกมแนวผจญภัยซึ่งเราจะได้รับบทบาทเป็นหมอที่ต้องค่อยกำจัดไวรัสที่อยู่ในแต่ละด่านโดยตัวเกมจะมี concept ที่สอดคล้องกับชื่อเกมของเราที่หมายถึงโรคที่มีการระบาดแพร่กระจายออกไปในหลายประเทศหรือหลายทวีป โดยเราจะแบ่งเกมออกเป็นด่านๆซึ่งเปรียบเสมือนกับไวรัสที่แพร่กระจายออกไปในแต่ละทวีป โดยเราจะต้องฝ่าฟันในแต่ละด่านเพื่อที่จะได้ไปยังด่านสุดท้ายและกำจัดไวรัสให้หมดไป</p>
-      <p><a class="det" href="https://github.com/ppetes/project-scratch-2/wiki">ดูรายละเอียดต่างๆภายในเกม</a></p>
-      <p><a class="det" href="https://scratch.mit.edu/projects/728758266">เข้าเล่นเกม</a></p>
-    </div>
-    <div class="infoEXPE">
-    </div>
-    </div>
-  </main>
-
-</body>
-
+    <main class="pt-2 mb-5">
+      <div>
+        <h1 class="text-center pb-4" style="color:#ED9510;">Experince</h1>
+      </div>
+      <div class="d-flex flex-wrap gap-5 justify-content-center" style="">
+        <div class="card p-0 overflow-hidden shadowbg" style="max-width: 30rem; width: 86%;">
+          <div class="row ">
+            <div class="col-md-0 ratio ratio-1x1 ">
+              <img src="img/img2.jpg" class="img-fluid rounded-2 object-fit-cover"alt="...">
+            </div>
+            <div class="col-md-8 " style="width: 30rem;">
+              <div class="card-body " style="max-width: 30rem;">
+                <h5 class="card-title text-white">Pandemic</h5>
+                <p class="card-text text-white-50">Project วิชา261103 ทำเกมเกี่ยวกับการต่อสู้เพื่อเอาชีวิตรอดเพื่อที่หนีจากไวรัส covid-19 สายพันธุ์ <a href="https://github.com/ppetes/project-scratch-2/wiki" style="text-decoration: none;">อ่านเพิ่มเติม</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card p-0 overflow-hidden shadowbg" style="max-width: 30rem; width: 86%;">
+          <div class="row">
+            <div class="col-md-8 ratio ratio-1x1">
+              <img src="img/img3.png" class="img-fluid rounded-2 object-fit-cover" alt="...">
+            </div>
+            <div class="col-md-8" style="width: 30rem;">
+              <div class="card-body" style="max-width: 30rem;">
+                <h5 class="card-title text-white">Hangman games</h5>
+                <p class="card-text text-white-50">Project วิชา261102 ทำเกี่ยวกับเกมHangman ทายศัพย์ภาษาอังกฤษขึ้นไปทีละระดับ <a href="https://github.com/Mxrch200x/project-compro" style="text-decoration: none;">download</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       
+    </main>
+  </body>
 </html>
